@@ -2,7 +2,6 @@ import express from "express";
 import mongoose from "mongoose";
 import morgan from "morgan";
 import cors from "cors";
-import dotenv from "dotenv";
 import globalErrorHandler from "./src/utils/errorHandler.js";
 import userRouter from "./src/router/bankAccountRouter.js";
 import config from "./src/config/index.js";
