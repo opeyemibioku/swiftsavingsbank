@@ -70,7 +70,7 @@ const userController = {
     }
 
     res.status(200).json({
-      message: "Bank account details found successfully",
+      message: "Bank account details retrieved successfully",
       status: "Success",
       data: {
         user: accountDetails,
@@ -86,7 +86,7 @@ const userController = {
     }
 
     res.status(200).json({
-      message: "All user bank account details found successfully",
+      message: "All user bank account details retrieved successfully",
       status: "Success",
       data: {
         accounts: allAccounts,
