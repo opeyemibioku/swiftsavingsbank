@@ -24,14 +24,14 @@
 
 ## Creating a Bank Account
 
-- To create a bank account, you can make a POST request to the /create-bank-account endpoint. The request body should contain the following information:
+To create a bank account, you can make a POST request to the /create-bank-account endpoint. The request body should contain the following information:
 
 - _accountHolderName (string): The name of the account holder._
 - _accountHolderDOB (string): The date of birth of the account holder._
 - _accountType (string): The type of account (savings or checking)._
 - _initialBalance (string): The initial balance of the account._
 
-- The response will be a JSON object with the following information:
+The response will be a JSON object with the following information:
 
 - _message (string): A message indicating the success or failure of the request._
 - _status (string): The status of the request (success or failure)._
@@ -43,7 +43,7 @@ To get the details of a bank account, you can make a GET request to the /get-use
 
 - _accountNumber (number): The account number of the holder._
 
-- The response will be a JSON object with the following information:
+The response will be a JSON object with the following information:
 
 - _message (string): A message indicating the success or failure of the request._
 - _status (string): The status of the request (success or failure)._
@@ -51,7 +51,7 @@ To get the details of a bank account, you can make a GET request to the /get-use
 
 ## Retrieving All Bank Accounts
 
-- To get the details of all bank accounts, you can make a GET request to the /get-all-users-bank-account endpoint. The request body does not need to contain any information.
+To get the details of all bank accounts, you can make a GET request to the /get-all-users-bank-account endpoint. The request body does not need to contain any information.
 
 The response will be a JSON object with the following information:
 
