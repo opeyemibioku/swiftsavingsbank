@@ -1,6 +1,6 @@
 import { BadUserRequestError } from "../utils/errorHandler.js";
-import BankAccountDetails from "../model/BankAccountModel.js";
-import { bankAccountValidator } from "../validator/BankAccountValidator.js";
+import BankAccountDetails from "../model/bankAccountModel.js";
+import { bankAccountValidator } from "../validator/bankAccountValidator.js";
 
 const userController = {
   createUserAccountController: async (req, res) => {
