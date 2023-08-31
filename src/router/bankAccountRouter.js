@@ -1,5 +1,5 @@
 import express from "express";
-import userController from "../controller/BankAccountController.js";
+import userController from "../controller/bankAccountController.js";
 import tryCatchHandler from "../utils/tryCatchHandler.js";
 
 const userRouter = express.Router();
