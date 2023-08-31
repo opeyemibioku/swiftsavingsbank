@@ -9,7 +9,7 @@ const userController = {
     const { accountHolderName, accountHolderDOB, accountType, initialBalance } =
       req.body;
 
-    const accountHolderNameExists = await BankAccountDetails.find({
+    const accountHolderNameExists = await BankAccountDetails.findOne({
       accountHolderName,
     });
     if (accountHolderNameExists.length > 0)
