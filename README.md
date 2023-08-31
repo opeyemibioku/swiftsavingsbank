@@ -35,11 +35,11 @@ The response will be a JSON object with the following information:
 
 - _message (string): A message indicating the success or failure of the request._
 - _status (string): The status of the request (success or failure)._
-- _data (object): The details of the created bank account (unique 10-digit account number with the holder's name, account type, and initial balance.)_
+- _data (object): The details of the created bank account (account holder's name, account type, initial balance, and unique 10-digit account number.)_
 
 ## Retrieving Individual Bank Account Details
 
-To get the details of a bank account, you can make a GET request to the /get-user-bank-account endpoint. The request body should contain the following information:
+To get the details of a bank account, you can make a GET request to the /get-user-bank-account endpoint. The request body should contain the information below:
 
 - _accountNumber (number): The account number of the holder._
 
@@ -57,7 +57,7 @@ The response will be a JSON object with the following information:
 
 - _message (string): A message indicating the success or failure of the request._
 - _status (string): The status of the request (success or failure)._
-- _data (array): An array of objects, each representing the data of a bank account._
+- _data (array): An array of objects, each representing the details of a bank account._
 
 ## Error Handling
 
